@@ -32,8 +32,12 @@ console.log(fullName);
   - Console.log your last favorite food 
 */
 console.log(me.favThreeFoods[0]);
-let lastFavFood = me.favThreeFoods.length;
-console.log(lastFavFood);
+console.log(me.favThreeFoods[2]);
+// or
+let lastItem = me.favThreeFoods.pop();
+console.log(lastItem);
+// tried to figure out a way to get the last item without changeing the array but couldn't. 
+console.log(me.favThreeFoods);
 
 //want the string value not the index or property number
 
